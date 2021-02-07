@@ -1,0 +1,142 @@
+body {
+    background:#80eee8;
+    font-size: 12px;
+  }
+  /* font-family: 'Poppins', sans-serif; */
+  body, button, input {
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    position: relative;
+    background: #838fdd;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px #ddd;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }
+  
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+    /* font-family: 'Poppins', sans-serif; */
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .app-title {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    color: #33d9b2;
+    font-size: 26px;
+    text-transform: uppercase;
+    border-left: 4px solid #218c74;
+    padding: 10px;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #FFF;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: #33d9b2;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  
+  .app-form-button:hover {
+    color: #218c74;
+  }
+  
+  .showdata{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: -10px;
+    padding-bottom: 10px;
+  }
+  footer{
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+  }
+  .box{
+      /* background: #1B2146; */
+      background: #FFF;
+      padding: 20px;
+      border-radius: 15px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      display: none;
+      color: #000;
+      box-shadow: 10px 10px 30px gainsboro;
+      margin-top: 30px;
+  }
